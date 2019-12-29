@@ -1,2 +1,2 @@
-# techtree project 1
+# Techdegree Project 1
  my first techtree project
