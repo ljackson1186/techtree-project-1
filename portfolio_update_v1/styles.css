@@ -115,7 +115,7 @@ header .profile-image:hover {
 ul.skills {
   padding: 0;
   text-align: center;
-}
+  }
 
 .skills li {
   border-radius: 6px;
@@ -126,9 +126,10 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
+.skills li:hover{
   background: #000000;
   color: white;
+
 }
 
 footer {
