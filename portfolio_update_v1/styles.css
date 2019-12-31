@@ -18,7 +18,8 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: white;
+  
 }
 
 /* Section Styles */
@@ -72,11 +73,12 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
-}
+  }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ This code from codeblocq.com*/ 
-  filter: grayscale(100%); /* FF 35+ this code also from codeblocq.com*/
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+*/ /*This code from http://www.codeblocq.com/2016/08/Turn-an-image-to-Black-and-White-on-hover-with-CSS/*/ 
+  filter: grayscale(100%); /* FF 35+*/ /*this code also from http://www.codeblocq.com/2016/08/Turn-an-image-to-Black-and-White-on-hover-with-CSS/*/
 }
 .tag {
   background-color: #efefef;
