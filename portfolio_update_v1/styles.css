@@ -112,6 +112,16 @@ header .profile-image:hover {
   border-color: #070707;
 }
 
+.skills a {
+  color: black;
+
+}
+
+.skills a:hover {
+  color: white;
+
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
