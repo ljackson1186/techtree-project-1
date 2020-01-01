@@ -1,4 +1,3 @@
-/* Global Layout Set-up */
 * { 
   box-sizing: border-box;
 }
@@ -71,12 +70,12 @@ header .profile-image {
   width: 175px;
   height: 175px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 1px solid white;
+  transition: all 2.0s;
   }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.3) rotate(15deg);
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+*/ /*This code from http://www.codeblocq.com/2016/08/Turn-an-image-to-Black-and-White-on-hover-with-CSS/*/ 
   filter: grayscale(100%); /* FF 35+*/ /*this code also from http://www.codeblocq.com/2016/08/Turn-an-image-to-Black-and-White-on-hover-with-CSS/*/
 }
@@ -115,6 +114,24 @@ header .profile-image:hover {
 .card:hover {
   border-color: #070707;
 }
+
+.row {
+  float: left;
+  padding: 5px;
+  content: "";
+  clear: both;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.right_photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 
 .skills a {
   color: black;
